@@ -3,7 +3,8 @@
 #   bash scripts/train_policy.sh idp3 gr1_dex-3d 0913_example
 #   bash scripts/train_policy.sh dp_224x224_r3m gr1_dex-image 0913_example
 
-dataset_path=/home/ze/projects/Improved-3D-Diffusion-Policy/training_data_example
+dataset_path=/home/DavidHong/data/leju/converted_data_10hz
+#dataset_path=/home/DavidHong/data/idp3_example/training_data_example
 
 
 DEBUG=False
@@ -18,7 +19,7 @@ seed=0
 exp_name=${task_name}-${alg_name}-${addition_info}
 run_dir="data/outputs/${exp_name}_seed${seed}"
 
-gpu_id=0
+gpu_id=3
 echo -e "\033[33mgpu id (to use): ${gpu_id}\033[0m"
 
 
