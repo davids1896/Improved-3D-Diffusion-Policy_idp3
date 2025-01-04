@@ -1,4 +1,4 @@
-#1 [Generalizable Humanoid Manipulation with Improved 3D Diffusion Policies](https://humanoid-manipulation.github.io/)
+#1 2[Generalizable Humanoid Manipulation with Improved 3D Diffusion Policies](https://humanoid-manipulation.github.io/)
 
 Our project is **fully open-sourced**. We separate them into two repos: [Learning & Deployment of iDP3](https://github.com/YanjieZe/Improved-3D-Diffusion-Policy) and [Humanoid Teleoperation](https://github.com/YanjieZe/Humanoid-Teleoperation). This repo is for training and deployment of iDP3.
 
